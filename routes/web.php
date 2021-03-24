@@ -15,9 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('contact', function () {
-    return "Hubungi Saya Melalui Halaman Ini";
+    return view('contact');
 });
 Route::get('about', function () {
-    return "Halaman Tentang Saya";
+    return view('about');
 });
