@@ -24,19 +24,5 @@ Route::get('about', function () {
     return view('about');
 });
 
-Route::get('siswa', function () {
-
-    $siswa = [
-        'Budi',
-        'Gina',
-        'Lalu',
-        'Tina'
-
-    ];
-
-    
-    return view('datasiswa.siswa', [
-        'siswa' =>  $siswa
-    ]);
-});
+Route::get('siswa', 'controllersiswa@list');
 
