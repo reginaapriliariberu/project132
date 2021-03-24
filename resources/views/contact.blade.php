@@ -7,8 +7,14 @@
     <title>Halaman Contact</title>
 </head>
 <body>
-<h1>Contact : 081337740284</h1>
-<h2>Regina Aprilia Riberu</h2>
+
+    @extends('layout1')
+
+    @section('konten')
+    <h1>Contact : 081337740284</h1>
+    <h2>Regina Aprilia Riberu</h2>
+    @endsection
+
     
 </body>
 </html>
