@@ -9,6 +9,13 @@
 </head>
 
 <body>
+    <ul>
+        <li><a href="/">Halaman Utama</a></li>
+        <li><a href="contact">Hubungi Saya</a></li>
+        <li><a href="about">Tentang Saya</a></li>
+        <li><a href="siswa">Data Siswa</a></li>
+    </ul>
+
     <h1>Daftar Siswa :</h1>
 
     @foreach ($siswa as $siswa)
