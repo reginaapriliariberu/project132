@@ -14,14 +14,18 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('halamansaya');
 });
 
 Route::view('contact', 'contact');
 
 
-Route::get('about', function () {
-    return view('about');
+Route::get('resume', function () {
+    return view('resume');
+});
+
+Route::get('halaman', function () {
+    return view('halamansaya');
 });
 
 Route::get('siswa', 'controllersiswa@list');
