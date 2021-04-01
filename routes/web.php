@@ -14,7 +14,7 @@
 
 
 Route::get('/', function () {
-    return view('halamansaya');
+    return view('welcome');
 });
 
 Route::view('contact', 'contact');
@@ -36,9 +36,7 @@ Route::get('halaman', function () {
     return view('halamansaya');
 });
 
-Route::get('profilku', function () {
-    return view('profilsaya');
-});
+
 
 
 Route::get('siswa', 'controllersiswa@list');
