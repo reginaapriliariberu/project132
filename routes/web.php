@@ -24,9 +24,28 @@ Route::get('resume', function () {
     return view('resume');
 });
 
+Route::get('portofolio', function () {
+    return view('profile');
+});
+
 Route::get('halaman', function () {
     return view('halamansaya');
 });
 
+Route::get('halaman', function () {
+    return view('halamansaya');
+});
+
+Route::get('profilku', function () {
+    return view('profilsaya');
+});
+
+
 Route::get('siswa', 'controllersiswa@list');
+
+Route::get('identitas', 'ProfileControleer@index') -> name('iden');
+
+Route::get('kembali-saya', 'ProfileControleer@index1') -> name('iden1');
+
+
 
