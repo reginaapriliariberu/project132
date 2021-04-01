@@ -14,26 +14,15 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('profilesaya');
 });
 
 Route::view('contact', 'contact');
 
 
-Route::get('resume', function () {
-    return view('resume');
-});
 
 Route::get('portofolio', function () {
     return view('profile');
-});
-
-Route::get('halaman', function () {
-    return view('halamansaya');
-});
-
-Route::get('halaman', function () {
-    return view('halamansaya');
 });
 
 
