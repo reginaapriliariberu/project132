@@ -30,9 +30,6 @@ Route::get('portofolio', function () {
 
 Route::get('siswa', 'controllersiswa@list');
 
-Route::get('identitas', 'ProfileControleer@index') -> name('iden');
+Route::get('identitas', 'ProfileControleer@index')->name('iden');
 
-Route::get('kembali-saya', 'ProfileControleer@index1') -> name('iden1');
-
-
-
+Route::get('kembali-saya', 'ProfileControleer@index1')->name('iden1');
